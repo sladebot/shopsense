@@ -1,0 +1,172 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-size: 13px;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  font-family: 'Times New Roman';
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.titlebar_container {
+  border-bottom: 2px solid gray;
+}
+
+.row-full {
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+.title_bar {
+  text-transform: uppercase;
+  font-size: 66px;
+  color: #000;
+}
+
+#title-container {
+  padding: 0;
+}
+
+#date_details {
+  float: right;
+  text-align: right;
+}
+
+#detail-context-panel {
+  border-right: 1px solid black;
+  padding-right: 5px;
+  width: auto;
+  text-align: right;
+}
+
+.datetime {
+  font-size: 13px;
+  font-family: 'Seriff' !important;
+}
+
+.datetime em{
+  font-size: 13px;
+
+  text-transform: uppercase;
+}
+
+.contact-info em{
+
+}
+
+.contact-info {
+  font-size: 11px;
+}
+
+
+#detail-tag-number {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: 'Arial' !important;
+  padding: 0;
+  float: right;
+  width: 50px;
+  position: relative;
+  top: 5px;
+}
+
+#details-container{
+  position: relative;
+  float: right;
+  top: 20px;
+}
+
+#date_details #details-header {
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.sub_header {
+  font-size: 56px;
+  font-family: 'Sans Seriff';
+  color: #000;
+  padding: 0;
+}
+
+.profile_block {
+  padding: 15px 0;
+  text-align: center;
+}
+
+img.article-image {
+  height: 80px;
+  width: 70px;
+  border: 1px solid black;
+  margin: auto;
+  vertical-align: middle;
+}
+
+.article-elements {
+  margin-top: 5px;
+  padding: 5px 0;
+}
+.newspaper_post {
+  text-indent: 25px;
+  margin: auto;
+  padding: 10px 20px;
+  text-align: left;
+}
+
+section#post_section article {
+  margin-bottom: 5px;
+}
