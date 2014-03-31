@@ -161,6 +161,8 @@ img.article-image {
   padding: 5px 0;
 }
 .newspaper_post {
+  max-height: 600px;
+  overflow: hidden;
   text-indent: 25px;
   margin: auto;
   padding: 10px 20px;

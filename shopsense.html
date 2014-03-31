@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app='newspaperApp'>
 
 <head>
     <meta charset="utf-8">
@@ -7,15 +7,15 @@
     <meta name="author" content="">
 
     <title>ShopSense</title>
-
+    <script src="js/angular.min.js"></script>
     <!-- Bootstrap core CSS -->
-    <link href="dist/css/shopsense_bootstrap.css" rel="stylesheet">
+    <link href="dist/css/bootstrap.css" rel="stylesheet">
 
-    <link href="dist/css/shopsense_assign.css" rel="stylesheet">
+    <link href="css/shopsense_assign.css" rel="stylesheet">
 
 </head>
 
-<body>
+<body ng-controller='articleCtrl'>
 
     <div class="container container-full">
       <div class="row row-full titlebar_container">
@@ -131,24 +131,19 @@
           </div>
           <div class="col-lg-1 newspaper_post">
            <section id="post_section">
-              <article>The President said for inclusive growth and development, the importance of quality and efficient delivery of public services could not be exaggerated. "The people are demanding better and more efficient administration. They will no longer tolerate non-transparent and unresponsive administration. They expect the benefits of welfare measures to reach them efficiently. </article>
-
-              <article>NEW DELHI: The government may have blamed institutions like Comptroller and Auditor General for the 'policy paralysis' during UPA-2 but on Sunday, President Pranab Mukherjee was all praise for CAG, Election Commission and Central Vigilance Commission, saying they were strengthening democracy by their "impartiality and capacity to take decision with independence". </article>
-
-              <article>Speaking at a function of Indian Institute of Public Administration (IIPA) here, the President stressed on "urgency in decision-making" to achieve a faster growth trajectory. 
-
-              "The institutions of CAG, EC, various statutory regulators, those established by an Act of the Parliament, at least I feel quiet happier today that their impartiality, judgment, assessment of situation, capacity to take decisions with complete independence has strengthened the parliamentary institution," Mukherjee was quoted by PTI as saying. 
-              </article>
-              <article>
-                Speaking at a function of Indian Institute of Public Administration (IIPA) here, the President stressed on "urgency in decision-making" to achieve a faster growth trajectory. 
+              <article article-maker>
               </article>
             </section>
           </div>
       </div>
 
+      <div class="row row-full">
+        <textarea name="" id="" cols="30" rows="10" ng-model='article_full.section'></textarea>
+      </div>
+
     </div>
-    <script src="dist/js/jquery-1.10.2.js"></script>
-    <script src="dist/js/bootstrap.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/shopsense.js"></script>
 
 </body>
 
